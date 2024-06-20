@@ -52,7 +52,7 @@ const handlePC = () => {
 const handlePrinter = () => {
   dispatch(setCurrentInstrument("printer"))
   dispatch(setCurrentInstrumentSelected(true));
-  // setCurrentInstrument('printer');
+  setCurrentInstrument('printer');
   // console.log(currentInstrument);
 }
 const handleLamp = () => {

@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
-// import { ConfiguratorProvider } from './context/Configurator';
+import { ConfiguratorProvider } from './context/Configurator';
 // import {ModelProvider} from './context/ModelContext.jsx';
 // import {BoxProvider} from './context/BoxContext.jsx';
 import { BrowserRouter } from 'react-router-dom';
@@ -12,7 +12,7 @@ import { store } from './redux/store.ts';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <ConfiguratorProvider> */}
+    <ConfiguratorProvider>
       {/* <BoxProvider> */}
       {/* <ModelProvider> */}
         <Provider store={store}>
@@ -22,6 +22,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         </Provider>
       {/* </ModelProvider> */}
       {/* </BoxProvider> */}
-    {/* </ConfiguratorProvider> */}
+    </ConfiguratorProvider>
   </React.StrictMode>,
 )

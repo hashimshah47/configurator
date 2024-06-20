@@ -40,9 +40,9 @@ export const Experience = () => {
       {/* {currentInstrument && currentInstrument === 'printer' && <Printer/>}     */}
         <Hotel/>
         <PC/>
-        {/* <Lamp/> */}
+        <Lamp/>
         <Arm/>
-        {/* <Printer/> */}
+        <Printer/>
       {/* </Stage> */}
       <OrbitControls makeDefault minPolarAngle={0} maxPolarAngle={Math.PI / 2}
       />

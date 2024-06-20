@@ -42,18 +42,6 @@ export default function Model(props) {
   // const [visible, setVisible] = useState(false);
   // const [positionSelected, setPositionSelected] = useState(null);
 
-  // const m0 = {
-  //   position: 0,
-  // };
-  // const m1 = {
-  //   position: 1,
-  // };
-  // const m2 = {
-  //   position: 2,
-  // };
-  // const backupMeshes = [];
-  // const [meshes, setMeshes] = useState([]);
-
   // const addMesh = (position) => {
   //   const newMesh = {
   //     position: position,

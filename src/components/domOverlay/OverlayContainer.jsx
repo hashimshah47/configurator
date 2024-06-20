@@ -20,7 +20,7 @@ const XrOverlayContainer = () => {
           sessionInit={{
             requiredFeatures: ["hit-test"],
             optionalFeatures: ['dom-overlay'],
-            // domOverlay: {root: overlayContent },
+            domOverlay: {root: overlayContent },
           }}
         />
         <Canvas camera = {{ position: [4, 0, -30]}}>
@@ -28,7 +28,7 @@ const XrOverlayContainer = () => {
             <Gallery />
           </XR>
         </Canvas>
-        {/* <Interface ref={interfaceRef} /> */}
+        <Interface ref={interfaceRef} />
     </>
   );
 };
